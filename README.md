@@ -1,4 +1,5 @@
-# Decodificador de Códigos da Alura
+
+# Decodificador de Códigos
   Esse projeto foi desenvolvido durante o curso da ONE de Formação Iniciante em Programação, uma parceria entre a Oracle e a Alura.
 
 ## 🔨 Funções
