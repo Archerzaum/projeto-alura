@@ -2,7 +2,7 @@
   Esse projeto foi desenvolvido durante o curso da ONE de Formação Iniciante em Programação, uma parceria entre a Oracle e a Alura.
   
 # 📁 Acesso:
-  Você pode estar acessando o site, que foi hospedado pelo Github Pages [Aqui.](https://archerzaum.github.io/projeto-alura/)
+  Você pode estar acessando o site, que foi hospedado pelo Github Pages [Aqui](https://archerzaum.github.io/projeto-alura/).
   
 ### ❌ Dificuldades
   Por ser um dos primeiros projetos que faço, enfrentei muitos desafios, especialmente com o CSS e o Javascript (mais especificamente, com as funcionalidades entre ambos)
