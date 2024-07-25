@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+* {
+    font-family: 'Oxanium', sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: var(--cor-preta);
+}
+
+:root {
+    --cor-branca:#fff;
+    --cor-verde:#61ff00;
+    --cor-preta:#000;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 253.91px;
+}
+
+.logo {
+    padding-top: 40px;
+    padding-left: 40px;
+    
+}
+
+.titulo {
+    font-size: 1.875rem;
+    color: var(--cor-branca);
+    letter-spacing: 5px;
+    padding-top: 60px;
+}
+
+.texto {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.texto__cripto {
+    padding: 5px;
+    font-size: 1.75rem;
+    color: var(--cor-verde);
+    width: 800px;
+    height: 482px;
+    border: 1px solid transparent;
+    transition: all 0.2s;
+    margin: 3% 7%;
+    resize: none;
+    text-transform: lowercase;
+}
+
+::placeholder {
+    color: var(--cor-verde);
+}
+
+:focus::placeholder {
+    color: transparent;
+}
+
+.texto__cripto:hover {
+    cursor: pointer;
+    border-color: var(--cor-verde);
+    transition-duration: 1s;
+}
+.texto__cripto:focus {
+    cursor: text;
+    border-color: var(--cor-verde);
+}
+
+.resultados {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid var(--cor-verde);
+    margin-left: 12%;
+    width: 459px;
+    height: 800px;
+}
+
+.texto__copiado {
+    color: var(--cor-branca);
+}
+
+.simbolo {
+    width: 346px;
+    height: 351px;
+}
+
+.texto__campo {
+    color: var(--cor-branca);
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.texto__comando {
+    color: var(--cor-verde);
+    font-size: 1.25rem;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 200;
+}
+
+.exclamacao {
+    width: 16px;
+    height: 15px;
+    vertical-align: baseline;
+}
+
+.texto__aviso {
+    font-size: 0.9375rem;
+    color: var(--cor-branca);
+    margin: -230px 131px;
+}
+
+.texto__resultado {
+    color: var(--cor-branca);
+    font-size: 1.75rem;
+    font-weight: 600;
+    resize: none;
+    width: 459px;
+    height: 700px;
+    padding: 10px;
+    border: 2px solid var(--cor-verde);
+    border-bottom: transparent;
+    border-top: transparent;
+}
+
+.texto__resultado:focus {
+    outline: none;
+}
+
+.copiar {
+    color: var(--cor-branca);
+    background-color: var(--cor-preta);
+    border: 1px solid var(--cor-verde);
+    width: 336px;
+    height: 73px;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.copiar:hover {
+    cursor: pointer;
+    background-color: var(--cor-branca);
+    color: var(--cor-preta);
+    border: var(--cor-branca);
+}
+
+.funcoes {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    margin-right: 825px;
+    margin-top: -130px;
+}
+
+.cripto, .descripto {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 22px 24px;
+}
+
+.cripto {
+    color: var(--cor-branca);
+    border: 1px solid var(--cor-preta);
+    background-color: #00BB00;
+    padding: 20px 22px;
+    width: 328px;
+    height: 76px;
+    transition: all 0.3s;
+}
+
+.cripto:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.cripto:active {
+    background-color: #fff;
+    color: #61ff00;
+    border-color: #61ff00;
+}
+
+.descripto {
+    color: var(--cor-branca);
+    border: 1px solid var(--cor-verde);
+    width: 328px;
+    height: 76px;
+    transition: all 0.3s;
+}
+
+.descripto:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.descripto:active {
+    background-color: #61ff00;
+    color: var(--cor-preta);
+    border-color: #fff;
+}
+
+.autoria {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 1rem;
+    color: var(--cor-verde);
+    margin-top: 47px;
+}
+
+.simbolo__git:hover {
+    transform: scale(1.1);
+    transition: all 0.3;
+}
+
+.destaque {
+    padding-left: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--cor-verde);
+}

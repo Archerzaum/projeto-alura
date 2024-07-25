@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/icon.png">
+    <script src="scripts.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <header>
+        <img src="./assets/Frame 6foto1.png" alt="Logo da Alura" class="logo">
+        <h1 class="titulo">Decodificador de Texto</h1>
+    </header>
+    <main>
+        <div class="texto">
+            <textarea class="texto__cripto" placeholder="Digite seu texto..."></textarea>
+            <div class="resultados">
+                <img class="simbolo" src="./assets/Group 6.png" alt="Símbolo de Octógono com uma interrogação entre chaves">
+                <p class="texto__campo">Nenhuma mensagem encontrada</p>
+                <p class="texto__comando">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <h4 class="texto__aviso"><img class="exclamacao" src="./assets/Vector.png" alt="Ícone de Exclamação">  Apenas letras minúsculas e sem acento</h4>
+        </div>
+        <div class="funcoes">
+            <button class="cripto" onclick="cripto()">Criptografar</button>
+            <button class="descripto" onclick="descripto()">Descriptografar</button>
+        </div>
+    </main>
+    <footer class="autoria">
+        <a href="https://github.com/Archerzaum" target="_blank"><img class="simbolo__git" src="./assets/Group 9.png" alt="Símbolo do Github"></a>
+        Made by<strong class="destaque">Gustavo Borges</strong>
+    </footer>
+</body>
+</html>
